@@ -1,0 +1,59 @@
+09/03/2023
+1. Ràng bu?c là gì:
+	+ là quy t?c d? quy d?nh d? li?u nh?p vào cho b?ng
+	+ d?m b?o tính chính xác, toàn v?n c?a d? li?u
+	+ có nh?ng ràng bu?c nào: primary key, foreign key, not null, default, unique, check
+
+	+ khóa chính: unique và not null, khóa chính d?i di?n 1 dòng
+	+ khóa ngo?i:
+		- là 1 c?t c?a b?ng này tham chi?u t?i khóa chính c?a b?ng khác
+		- ph?i cùng ki?u d? li?u
+		- m?c dích c?a khóa ngo?i:
+			-- liên k?t d? li?u gi?a các b?ng
+			-- b?o v? tính nh?t quán c?a d? li?u
+			-- t? d?ng c?p nh?t d? li?u(d? li?u b?ng chính thay d?i thì các b?ng liên quan cung thay d?i)
+			-- h? tr? ho?t d?ng truy v?n d? li?u
+
+2. Cách t?o CSDL, t?o b?ng, t?o c?t, thêm d? li?u, xóa d? li?u
+	
+		+ cú pháp t?o CSDL: CREATE DATABASE databasename;
+		+ cú pháp xóa CSDL: DROP DATABASE databasename;
+		+ cú pháp t?o b?ng: CREATE TABLE table_name(datatype...)
+		+ cú pháp t?o c?t: ALTER TABLE table_name / ADD column_name datatype;
+		+ cú pháp t?o dòng: INSERT INTO table_name (column1, column2, column3,..) / VALUES (value1, value2,value3,..)
+		+ thêm d? li?u: ADD 
+		+ xóa d? li?u: DELETE FROM
+10/03/23
+
+1. SQL là gì?
+	+ là ngôn ng? l?p trình dùng d? truy v?n và qu?n lý co s? d? li?u quan h? 
+	+ du?c s? d?ng d? th?c hi?n các thao tác t?o, truy v?n, c?p nh?t, xóa d? li?u trong co s? d? li?u
+	+ là công c? quan tr?ng trong qu?n lý co s? d? li?u và du?c s? d?ng r?ng rãi
+
+2. CSDL quan h? là gì?
+	+ CSDL quan h? (Relational Database) là m?t lo?i co s? d? li?u du?c thi?t k? d? luu tr? và qu?n lý d? li?u 
+	+ M?i b?ng d?i di?n cho m?t th?c th? và các c?t d?i di?n cho thu?c tính c?a th?c th?
+	+ Các b?ng trong CSDL k?t n?i v?i nhau thông qua khóa chính(primary key) và khóa ngo?i(foreign key). 
+	Các khóa này giúp xác d?nh m?i quan h? gi?a các b?ng và h? tr? truy xu?t d? li?u t? các b?ng liên quan nhau.
+
+3. DBMS là gì?
+	+ (Database Management System) là m?t h? th?ng ph?n m?m du?c s? d?ng d? qu?n lý và di?u khi?n các ho?t d?ng 
+	c?a CSDL. DBMS cung c?p các ch?ng nang d? luu tr?, truy xu?t, c?p nh?t và xóa d? li?u trong CSDl.
+	+ V?i DBMS, ngu?i dùng có th? qu?n lý và truy xu?t d? li?u d? dàng và hi?u qu?, d?ng th?i d?m b?o tính toàn v?n và an ninh c?a d? li?u
+
+4. ERD là gì?
+	+ ERD là công c? d? thi?t k? CSDL, mô t? các th?c th? và m?i quan h? c?a chúng
+        + ERD giúp hi?u và bi?u di?n các d?i tu?ng và quan h? gi?a chúng trong CSDL m?t cách tr?c quan.
+	+ Các thành ph?n trong ERD:
+		- Th?c th? (Entity)
+		- M?i quan h? (Relationship)
+		- Thu?c tính (Attribute)
+
+5. M?i quan h? gi?a các b?ng trong CSDL?
+	+ M?i quan h? m?t-m?t: X?y ra khi m?t thu?c tính trong b?ng A ch? tham chi?u d?n b?ng B và ngu?c l?i
+		-Vd: m?t ngu?i ch? có m?t s? CMND và s? CMND ch? du?c c?p cho m?t ngu?i
+	+ M?i quan h? m?t-nhi?u: X?y ra khi m?t thu?c tính trong b?ng A có th? tham chi?u d?n nhi?u b?n ghi trong b?ng B 
+	nhung 1 b?n ghi trong b?ng B ch? du?c tham chi?u b?i 1 b?n ghi trong b?ng A.
+		-Vd: 1 khách hàng có th? có nhi?u don hàng nhung 1 don hàng ch? có th? có 1 khách hàng
+	+ M?i quan h? nhi?u-nhi?u: Khi m?i b?n ghi trong b?ng A có th? tham chi?u d?n nhi?u b?n ghi trong b?ng B và ngu?c l?i
+		-Vd: m?t sách có th? du?c vi?t t? nhi?u khán gi? và m?i tác gi? có th? vi?t du?c nhi?u sách
