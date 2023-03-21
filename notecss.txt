@@ -1,0 +1,84 @@
+text-align : cang ch?nh
+color: màu
+list-style-image: ch? d?nh hình ?nh
+list-style là m?t thu?c tính rút g?n
+background: thi?t l?p hình n?n
+padding: là kho?n cách gi?a các n?i dung bên trong ph?n t?
+margin: kho?ng cách gi?a ph?n t? và các ph?n t? khác xung quanh nó.
+border: du?ng vi?n b?n
+border-collapse: b? du?ng vi?n b?ng
+width: chi?u r?ng
+height: chi?u cao
+text-align: thi?t l?p can ch?nh theo chi?u ngang
+vertical-lign: can ch?nh theo chi?u d?c
+text-decoration du?c s? d?ng d? thi?t l?p ho?c lo?i b? trang trí kh?i van b?n
+text-transform du?c s? d?ng d? ch? d?nh ký t? ch? hoa và ch? thu?ng
+- uppercase : ch? hoa
+-lowercase: ch? thu?ng
+- capitalize: ch? hoa d?u tiên
+text-ident du?c s? d?ng d? ch? d?nh th?t l? dòng d?u tiên c?a m?t do?n van b?n
+letter-spacing du?c s? d?ng d? xác d?nh kho?ng cách gi?a các ký t? trong m?t van b?n
+line-height du?c s? d?ng d? xác d?nh kho?ng cách gi?a các dòng
+word-spacing du?c s? d?ng d? xác d?nh kho?ng cách gi?a các t? trong m?t van b?n
+font-style ch? y?u du?c s? d?ng d? ch? d?nh in nghiêng van b?n
+-normal - Van b?n hi?n th? bình thu?ng
+-italic - Van b?n du?c hi?n th? in nghiêng
+-oblique - Van b?n b? "nghiêng (xiên)"
+font-size dùng d? thi?t l?p kích c? c?a van b?n.
+font-weight xác d?nh d? d?m (d? n?ng) c?a phông ch?.
+font-variant xác d?nh có hay không m?t van b?n s? du?c hi?n th? v?i m?t phông ch? small-caps
+border-style ch? d?nh lo?i\ki?u du?ng vi?n s? hi?n th?.
+-dotted - du?ng vi?n là các di?m (d?u ch?m)
+-dashed - du?ng vi?n là các nét d?t
+-solid - du?ng vi?n là nét li?n m?nh
+-double - du?ng vi?n là nét dôi
+-groove - du?ng vi?n 3D có x? rãnh. Hi?u ?ng ph? thu?c vào màu vi?n
+-ridge - du?ng vi?n 3D tròn n?i. Hi?u ?ng ph? thu?c vào màu vi?n
+-inset - du?ng vi?n 3D khung chìm. Hi?u ?ng ph? thu?c vào màu vi?n
+-outset - du?ng vi?n 3D khung n?i. Hi?u ?ng ph? thu?c vào màu vi?n
+-none - không có du?ng vi?n
+-hidden - du?ng vi?n ?n
+border-width ch? d?nh chi?u r?ng c?a b?n du?ng vi?n.
+background-color ch? d?nh màu n?n c?a m?t ph?n t?.
+background-image ch? d?nh m?t hình ?nh dùng d? làm n?n cho m?t ph?n t?.
+background-mage l?p hình ?nh theo chi?u ngang và theo chi?u d?c
+background-attachment: hình n?n c? d?nh v? trí
+content: d?nh d?ng n?i dung bên trong m?t ph?n t? HTML
+overflow: s? d?ng d? tràng n?i dung trong b?n ( thu?c tính này ch? làm vi?c v?i các thành ph?n HTML d?ng block và có chi?u cao xác d?nh)
+hidden: ?n van b?n tràng
+scroll: t?o thanh tru?c xem van b?n (luôn du?c t?o ra thanh tru?c)
+auto: t? d?ng t?o thanh tru?t khi có tràng
+visible: hi?n van b?n tràng ra
+Float: làm n?i lên (tr?a không gian)
+clear:  s? d?ng d? xóa các d?c tính c?a ph?n t? khi nó ch?m vào các ph?n t? dã du?c d?nh v? b?ng thu?c tính "float"
+position:
+fixed:  s? d?ng du?c top, right,bottom, left thay d?i du?c v? tr? và s? c? d?nh
+relative: ph? thu?c vào xung quanh
+absolute: l?y giá tr? body n?u có relative thì s? l?y relative g?n nh?t
+z-index: ch? d?nh tr?t t? các thành ph?n khi hi?n th? dùng thu?c tính( có hi?u l?c khi postition có giá tr? là absolute, relative, fixed)
+display:
+block:
+inlien:
+inline-block:
+display flex: trên 1 hàng
+flex-wrap: wrap
+flex-direction
+display: none: ?n và không chi?m d?ng
+visibility: ?n và chi?m d?ng
+opacity: th? th?t làm m? ho?c d?m
+justify-content : canh l? chi?u ngang
+align-items: canh t?ng item
+center  : canh tâm ? gi?a theo chi?u ngang
+flex-start: canh tâm ? trên theo chi?u ngang
+flex-end: canh tâm ? du?i theo chi?u ngang
+align-content: canh nguyên kh?i
+thi?t k? wed:
+-transfrom: skew(20deg); - nghiêng ngu?c kim d?ng h?
+-transfrom: scale(0.8); - dum hình ?nh to ho?c nh?
+-transfrom: rotate(30deg); - quay hình ?nh
+-transition: transfrom 1s; - th?c hi?n hi?u ?ng trong 1s
+d?i màu
+-@keyframes 'tên' {
+  from{ background-color: màu;}
+  to{ background-color: màu;}
+-animation: 'tên' 1s infinite;
