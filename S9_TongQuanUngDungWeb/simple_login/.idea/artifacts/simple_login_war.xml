@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="simple_login:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>simple_login</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="simple_login-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="simple_login:war exploded" />
+    </root>
+  </artifact>
+</component>
