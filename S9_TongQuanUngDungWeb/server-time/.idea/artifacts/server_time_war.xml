@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="server-time:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>server-time</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="server-time-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="server-time:war exploded" />
+    </root>
+  </artifact>
+</component>
