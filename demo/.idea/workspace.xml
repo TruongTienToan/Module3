@@ -9,30 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80c5482e-a6dd-42a1-b86c-76fcaa25fc7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CaseModule3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseModule3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseModule3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseModule3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseModule3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseModule3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CaseModule3/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../S9_TongQuanUngDungWeb/DisplayCustomer/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapcssmd3/dinhdangvanban.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapcssmd3/nhungcss.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapcssmd3/nhungcssvaohtml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapcssmd3/sudungcss.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/bootstrapgridsystem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/democontairner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/democssselector.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demoflexbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demovandungtonghop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/testflex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/testpadding.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/luyentapcss/cart.html" beforeDir="false" />
-    </list>
+    <list default="true" id="80c5482e-a6dd-42a1-b86c-76fcaa25fc7f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -165,6 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680539574222</updated>
       <workItem from="1680539576227" duration="1763000" />
+      <workItem from="1681367659855" duration="159000" />
     </task>
     <servers />
   </component>
