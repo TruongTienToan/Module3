@@ -67,4 +67,19 @@ group by st.StudentName having avg(mk.Mark) > 15;
 select st.studentName, avg(mk.Mark) as điemtb
 from student st
 join mark mk on st.studentID = mk.studentID
-group by st.StudentName having avg(mk.Mark) >= all (SELECT AVG(Mark) FROM Mark GROUP BY Mark.StudentId)
+group by st.StudentName having avg(mk.Mark) >= all (SELECT AVG(Mark) FROM Mark GROUP BY Mark.StudentId);
+
+-- Hiển thị tất cả các thông tin môn học(subject) có credit lớn nhất
+select * from subject 
+where credit >= all (select credit from subject);
+
+-- Hiển thị các thông tin môn học có điểm thi lớn nhất
+select * from subject sj
+join mark mk on sj.SubId = mk.SubId
+where mk.Mark >= all (select mark from mark);
+
+-- Hiển thị các thông tin sinh viên và điểm trung bình của mỗi sinh viên, xếp hạng theo thứ tự điểm giảm dần
+select st.StudentId, st.StudentName , avg(mk.mark) as diemtb from student st
+join mark mk on st.StudentId = mk.StudentId
+group by st.StudentId, st.StudentName
+order by avg(mk.Mark) desc
